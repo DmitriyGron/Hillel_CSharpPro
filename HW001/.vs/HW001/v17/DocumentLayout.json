@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Projects\\SQL\\repositories\\Hillel_CSharpPro\\HW001\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{008FA3E0-88E9-4A7D-9258-1F9D1AF2E78B}|HW001\\HW001.csproj|d:\\projects\\sql\\repositories\\hillel_csharppro\\hw001\\hw001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{008FA3E0-88E9-4A7D-9258-1F9D1AF2E78B}|HW001\\HW001.csproj|solutionrelative:hw001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{008FA3E0-88E9-4A7D-9258-1F9D1AF2E78B}|HW001\\HW001.csproj|D:\\Projects\\SQL\\repositories\\Hillel_CSharpPro\\HW001\\hw001\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{008FA3E0-88E9-4A7D-9258-1F9D1AF2E78B}|HW001\\HW001.csproj|solutionrelative:hw001\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008FA3E0-88E9-4A7D-9258-1F9D1AF2E78B}|HW001\\HW001.csproj|d:\\projects\\sql\\repositories\\hillel_csharppro\\hw001\\hw001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008FA3E0-88E9-4A7D-9258-1F9D1AF2E78B}|HW001\\HW001.csproj|solutionrelative:hw001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,20 +26,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Calculator.cs",
               "DocumentMoniker": "D:\\Projects\\SQL\\repositories\\Hillel_CSharpPro\\HW001\\HW001\\Calculator.cs",
               "RelativeDocumentMoniker": "HW001\\Calculator.cs",
               "ToolTip": "D:\\Projects\\SQL\\repositories\\Hillel_CSharpPro\\HW001\\HW001\\Calculator.cs",
               "RelativeToolTip": "HW001\\Calculator.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBYAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T00:22:38.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\SQL\\repositories\\Hillel_CSharpPro\\HW001\\HW001\\Program.cs",
               "RelativeDocumentMoniker": "HW001\\Program.cs",
