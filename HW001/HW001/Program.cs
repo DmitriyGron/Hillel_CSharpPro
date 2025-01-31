@@ -6,7 +6,7 @@ namespace HW001
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("FirstNormalCommit");
+            Calculator calculator = new Calculator();
         }
     }
 }
