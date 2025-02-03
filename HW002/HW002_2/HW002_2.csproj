@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4384F063-6D35-45DB-9276-73BE013D6BAB}</ProjectGuid>
+    <ProjectGuid>{FC60591A-E671-44E5-85A8-FE291511D750}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HW002</RootNamespace>
-    <AssemblyName>HW002</AssemblyName>
+    <RootNamespace>HW002_2</RootNamespace>
+    <AssemblyName>HW002_2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Money.cs" />
-    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
