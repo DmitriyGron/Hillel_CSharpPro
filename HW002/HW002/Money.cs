@@ -6,15 +6,20 @@ namespace HW002
     {
         public int Uah { get; set; }
         public int Coins { get; set; }
-        public Money(int uah, int coins)
+        public Money(int Uah, int Coins)
         {
-            if (coins >= 100)
+            if (Uah < 0 || Coins < 0)
             {
-                uah += coins / 100;
-                coins %=  100;
+                throw new ArgumentException("Amount of money cannot be negative.");
             }
-            Uah = uah;
-            Coins = coins;
+
+            if (Coins >= 100)
+            {
+                Uah += Coins / 100;
+                Coins %=  100;
+            }
+            this.Uah = Uah;
+            this.Coins = Coins;
         }
 
         public void ShowInfo()
