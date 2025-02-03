@@ -4,8 +4,8 @@ namespace HW002
 {
     public class Money
     {
-        public int Uah { get; set; }
-        public int Coins { get; set; }
+        public int Uah { get; }
+        public int Coins { get;}
         public Money(int Uah, int Coins)
         {
             if (Uah < 0 || Coins < 0)
