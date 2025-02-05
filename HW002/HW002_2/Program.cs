@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HW002_2
+﻿namespace HW002_2
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

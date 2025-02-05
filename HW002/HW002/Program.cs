@@ -6,13 +6,13 @@ namespace HW002
     {
         static void Main(string[] args)
         {
-            int a, b;
+            int firstValue, secondValue;
             Console.Write("Uah: ");
-            a = Convert.ToInt32(Console.ReadLine());
+            firstValue = Convert.ToInt32(Console.ReadLine());
             Console.Write("Сoins: ");
-            b = Convert.ToInt32(Console.ReadLine());
+            secondValue = Convert.ToInt32(Console.ReadLine());
 
-            Money money = new Money(a,b);
+            Money money = new Money(firstValue,secondValue);
             money.ShowInfo();
 
             Product product = new Product("Bread", money);
@@ -22,10 +22,10 @@ namespace HW002
 
             Console.WriteLine("How much do you want to reduce the price? ");
             Console.Write("Uah: ");
-            a = Convert.ToInt32(Console.ReadLine());
+            firstValue = Convert.ToInt32(Console.ReadLine());
             Console.Write("Coins: ");
-            b = Convert.ToInt32(Console.ReadLine());
-            Money changingPrice = new Money(a, b);
+            secondValue = Convert.ToInt32(Console.ReadLine());
+            Money changingPrice = new Money(firstValue, secondValue);
             product.ReducePrice(changingPrice);
             product.ShowInfo();
         }
