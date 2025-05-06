@@ -1,1 +1,1 @@
-# Hillel_CSharpPro
+Homework from IT-school from course C# Pro
