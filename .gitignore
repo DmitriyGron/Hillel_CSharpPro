@@ -23,6 +23,7 @@ bld/
 
 # Visual Studio Code settings
 .vscode/
+.vs/
 
 # Others
 *.log
