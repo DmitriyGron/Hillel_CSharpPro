@@ -15,7 +15,7 @@ namespace HW_002
 
         public void ChangePrice(Money changePrice)
         {
-            if (changePrice.Uah > money.Uah || changePrice.Uah > money.Uah && changePrice.Coins > money.Coins)
+            if (changePrice.Uah > money.Uah || (changePrice.Uah == money.Uah && changePrice.Coins > money.Coins))
             {
                 throw new ArgumentException("The price cannot be negative");
             }
