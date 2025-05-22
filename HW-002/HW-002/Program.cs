@@ -1,4 +1,4 @@
-﻿using System.ComponentModel;
+﻿using System;
 
 /*
 
@@ -27,9 +27,13 @@ namespace HW_002
     {
         static void Main()
         {
-            Money mon = new Money(8, 145);
+            Money mon = new Money(8,10);
             Product prod = new Product("Bread", mon);
+            prod.Show();
 
+            Console.WriteLine("Changed price: ");
+            mon = new Money(2, 90);
+            prod.ChangePrice(mon);
             prod.Show();
         }
 
