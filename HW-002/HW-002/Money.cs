@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace HW_002
 {
@@ -18,9 +19,21 @@ namespace HW_002
             _coins = coins;
         }
 
-        public void Show()
+        public int Uah
         {
-            Console.WriteLine($"Money: {_uah}.{_coins}");
+            get { return _uah; }
+            set { _uah = value; }
+        }
+
+        public int Coins
+        {
+            get { return _coins; }
+            set { _coins = value; }
+        }
+
+        public void Show(string text)
+        {
+            Console.WriteLine($"{text}: {_uah}.{_coins}");
         }
     }
 }
