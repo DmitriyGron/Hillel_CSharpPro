@@ -1,9 +1,13 @@
-﻿namespace HW_002
+﻿using System.ComponentModel;
+
+namespace HW_002
 {
-    internal class Program
+    public class Program
     {
         static void Main()
         {
+            Money mon = new Money(4, 245);
+            mon.Show();
         }
     }
 }

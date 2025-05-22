@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\Hillel\\Hillel_CSharpPro\\HW-002\\",
+  "WorkspaceRootPath": "D:\\Hillel\\Hillel_CSharpPro\\HW-002\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E1B5083-AB66-456C-B894-DE4BB72E1783}|HW-002\\HW-002.csproj|d:\\projects\\hillel\\hillel_csharppro\\hw-002\\hw-002\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E1B5083-AB66-456C-B894-DE4BB72E1783}|HW-002\\HW-002.csproj|d:\\hillel\\hillel_csharppro\\hw-002\\hw-002\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E1B5083-AB66-456C-B894-DE4BB72E1783}|HW-002\\HW-002.csproj|solutionrelative:hw-002\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B5083-AB66-456C-B894-DE4BB72E1783}|HW-002\\HW-002.csproj|d:\\hillel\\hillel_csharppro\\hw-002\\hw-002\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B5083-AB66-456C-B894-DE4BB72E1783}|HW-002\\HW-002.csproj|solutionrelative:hw-002\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Money.cs",
+              "DocumentMoniker": "D:\\Hillel\\Hillel_CSharpPro\\HW-002\\HW-002\\Money.cs",
+              "RelativeDocumentMoniker": "HW-002\\Money.cs",
+              "ToolTip": "D:\\Hillel\\Hillel_CSharpPro\\HW-002\\HW-002\\Money.cs",
+              "RelativeToolTip": "HW-002\\Money.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:30:16.813Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\Hillel\\Hillel_CSharpPro\\HW-002\\HW-002\\Program.cs",
+              "DocumentMoniker": "D:\\Hillel\\Hillel_CSharpPro\\HW-002\\HW-002\\Program.cs",
               "RelativeDocumentMoniker": "HW-002\\Program.cs",
-              "ToolTip": "D:\\Projects\\Hillel\\Hillel_CSharpPro\\HW-002\\HW-002\\Program.cs",
+              "ToolTip": "D:\\Hillel\\Hillel_CSharpPro\\HW-002\\HW-002\\Program.cs",
               "RelativeToolTip": "HW-002\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T12:48:59.732Z",
+              "WhenOpened": "2025-05-22T17:29:00.755Z",
               "EditorCaption": ""
             }
           ]
