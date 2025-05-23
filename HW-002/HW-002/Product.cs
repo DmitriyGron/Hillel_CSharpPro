@@ -5,38 +5,37 @@ namespace HW_002
     public class Product
     {
         private string _name;
-        public Money money { get; set; }
+        public Money Money { get; set; }
 
         public Product(string name, Money money)
         {
             _name = name;
-            this.money = money;
+            this.Money = money;
         }
 
         public void ChangePrice(Money changePrice)
         {
-            if (changePrice.Uah > money.Uah || (changePrice.Uah == money.Uah && changePrice.Coins > money.Coins))
+            if (changePrice.IsLessThan(changePrice))
             {
                 throw new ArgumentException("The price cannot be negative");
             }
             else
             {
-                money.Uah -= changePrice.Uah;
-                money.Coins -= changePrice.Coins;
+                Money.Uah -= changePrice.Uah;
+                Money.Coins -= changePrice.Coins;
 
-                if (money.Coins < 0)
+                if (Money.Coins < 0)
                 {
-                    money.Uah -= 1;
-                    money.Coins += 100;
+                    Money.Uah -= 1;
+                    Money.Coins += 100;
                 }
             }
-            
         }
 
         public void Show()
         {
             Console.WriteLine($"Product: {_name}");
-            money.Show("Price: ");
+            Money.Show("Price: ");
         }
     }
 }

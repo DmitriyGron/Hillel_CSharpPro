@@ -31,6 +31,11 @@ namespace HW_002
             set { _coins = value; }
         }
 
+        public bool IsLessThan(Money other)
+        {
+            return this.Uah < other.Uah || (this.Uah == other.Uah && this.Coins < other.Coins);
+        }
+
         public void Show(string text)
         {
             Console.WriteLine($"{text}: {_uah}.{_coins}");
