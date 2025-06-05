@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 
 namespace HW_002
 {
-    public class Money
+    internal class Money
     {
         private int _uah;
         private int _coins;

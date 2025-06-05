@@ -2,7 +2,7 @@
 
 namespace HW_002
 {
-    public class Product
+    internal class Product
     {
         private string _name;
         public Money Money { get; set; }
