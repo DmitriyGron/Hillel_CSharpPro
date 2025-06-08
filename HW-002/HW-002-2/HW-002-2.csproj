@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Trombone.cs" />
+    <Compile Include="Cello.cs" />
+    <Compile Include="Ukulele.cs" />
+    <Compile Include="Violin.cs" />
+    <Compile Include="MusicaInstrument.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
