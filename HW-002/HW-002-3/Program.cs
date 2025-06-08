@@ -1,19 +1,5 @@
 ﻿using System;
 
-/*
-    Завдання 3 (Структури)
-
-    Створіть структуру «Десяткове число». 
-
-    Визначте в ній необхідні поля і методи. Реалізуйте наступну функціональність: 
-
-    ■ Перевести число у двійкову систему; 
-
-    ■ Перевести число у вісімкову систему; 
-
-    ■ Перевести число у шістнадцяткову систему. 
-*/
-
 namespace HW_002_3
 {
     internal class Program
@@ -21,6 +7,14 @@ namespace HW_002_3
         static void Main(string[] args)
         {
 
+            DecimalNumber decimalNumber = new DecimalNumber(255);
+
+            decimalNumber.Show();
+            Console.WriteLine("In binary system: " + decimalNumber.ToBinary());
+            Console.WriteLine("In octal system: " + decimalNumber.ToOctal());
+            Console.WriteLine("In hexadecimal: " + decimalNumber.ToHexadecimal());
         }
+
     }
 }
+
