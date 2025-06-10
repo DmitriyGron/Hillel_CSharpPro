@@ -1,50 +1,25 @@
 ﻿using System;
 
-/*
- 
-        Завдання 2 
-
-        Створіть інтерфейс IMath. 
-
-        У ньому мають бути чотири методи: 
-
-        ■ int Max() — повертає максимум; 
-
-        ■ int Min() — повертає мінімум;
-
-        ■ float Avg() — повертає середньоарифметичне; 
-
-        ■ bool Search(int valueToSearch) — шукає valueSearch всередині контейнера даних. 
-
-        - Повертає true, якщо значення знайдено. 
-
-        - Повертає false, якщо значення не знайдено. 
-
-        Клас, створений у першому завданні Array, має імплементувати інтерфейс IMath. 
-
-        Метод Max — повертає максимум серед елементів масиву. 
-
-        Метод Min — повертає мінімум серед елементів масиву. 
-
-        Метод Avg — повертає середньоарифметичне серед елементів масиву. 
-
-        Метод Search — шукає значення всередині масиву. 
-
-        - Повертає true, якщо значення знайдено. 
-
-        - Повертає false, якщо значення не знайдено. 
-
-        Напишіть код для тестування отриманої функціональності
- 
- */
-
 namespace HW_003_2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            Array array = new Array(new int[] { 6, 7, 5, 12, 5, 25 });
 
+            Console.WriteLine($"Averege: {array.Avg()}");
+            Console.WriteLine($"Maximum: {array.Max()}");
+            Console.WriteLine($"Minimum: {array.Min()}");
+
+            if (array.Search(7).Equals(true))
+            {
+                Console.WriteLine($"Number found");
+            }
+            else
+            {
+                Console.WriteLine($"Number not found");
+            }
         }
     }
 }

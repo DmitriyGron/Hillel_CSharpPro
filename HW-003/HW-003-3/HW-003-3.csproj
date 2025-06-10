@@ -7,7 +7,7 @@
     <ProjectGuid>{2D083F82-A0D0-4F88-97D6-DA67621D6AF0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>HW_003_3</RootNamespace>
-    <AssemblyName>HW_003_3</AssemblyName>
+    <AssemblyName>HW-003-3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
