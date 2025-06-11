@@ -1,45 +1,27 @@
 ﻿using System;
 
-/*
- 
-        Завдання 3 
-
-        Створіть інтерфейс ISort. 
-
-        У ньому мають бути три методи: 
-
-        ■ void SortAsc() — сортування за зростанням; 
-
-        ■ void SortDesc() — сортування за зменшенням; 
-
-        ■ void SortByParam(bool isAsc) — сортування залежно від переданого параметра. 
-
-        Якщо isAsc дорівнює true, сортуємо за зростанням. 
-
-        Якщо isAsc дорівнює false, сортуємо за зменшенням
-
-        Клас, створений у першому завданні Array, має імплементувати інтерфейс ISort. 
-
-        Метод SortAsc — сортує масив за зростанням. 
-
-        Метод SortDesc — сортує масив за спаданням. 
-
-        Спосіб SortByParam — сортує масив залежно від переданого параметра. 
-
-        Якщо isAsc дорівнює true, сортуємо за зростанням. 
-
-        Якщо isAsc дорівнює false, сортуємо за зменшенням. 
-
-        Напишіть код для тестування отриманої функціональності.
- 
- */
-
 namespace HW_003_3
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            Array array = new Array(new int[] { 6, 7, 5, 12, 2, 25 });
+            Console.WriteLine("Original array: ");
+            array.Show();
+
+            Console.WriteLine("Asc: ");
+            array.SortAsc();
+            array.Show();
+            Console.WriteLine("Desc: ");
+            array.SortDesc();
+            array.Show();
+            Console.WriteLine("Sort by param true:");
+            array.SortByParam(true);
+            array.Show();
+            Console.WriteLine("Sort by param false:");
+            array.SortByParam(false);
+            array.Show();
 
         }
     }

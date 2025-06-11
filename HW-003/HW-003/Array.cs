@@ -2,11 +2,11 @@
 
 namespace HW_003
 {
-    public class intArray : IOutput
+    public class Array : IOutput
     {
         private int[] elements;
 
-        public intArray(int[] array)
+        public Array(int[] array)
         {
             elements = array;
         }
