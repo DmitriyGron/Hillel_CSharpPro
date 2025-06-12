@@ -25,6 +25,9 @@ namespace HW_004
             Console.WriteLine("Employee 1 > Employee 2: " + (employee1 > employee2));
             Console.WriteLine("Employee 1 < Employee 2: " + (employee1 < employee2));
             Console.WriteLine("Equals: " + employee1.Equals(employee2));
+            Console.WriteLine("HashCode Employee 1: " + employee1.GetHashCode());
+            Console.WriteLine("HashCode Employee 2: " + employee2.GetHashCode());
+
         }
     }
 }

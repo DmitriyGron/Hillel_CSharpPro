@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HW_004
 {
@@ -29,24 +25,10 @@ namespace HW_004
             return a;
         }
 
-        public static bool operator ==(Employee a, Employee b)
-        {
-            return a.Salary == b.Salary;
-        }
-
-        public static bool operator !=(Employee a, Employee b)
-        {
-            return a.Salary != b.Salary;
-        }
-
-        public static bool operator >(Employee a, Employee b)
-        {
-            return a.Salary > b.Salary;
-        }
-        public static bool operator <(Employee a, Employee b)
-        {
-            return a.Salary < b.Salary;
-        }
+        public static bool operator ==(Employee a, Employee b) => a.Salary == b.Salary;
+        public static bool operator !=(Employee a, Employee b) => a.Salary != b.Salary;
+        public static bool operator >(Employee a, Employee b) => a.Salary > b.Salary;
+        public static bool operator <(Employee a, Employee b) => a.Salary < b.Salary;
 
         public override bool Equals(object obj)
         {
