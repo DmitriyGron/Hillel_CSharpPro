@@ -6,9 +6,9 @@ namespace DoctorAppointment.Data.Interfaces
     {
         Doctor Create(Doctor doctor);
 
-        Doctor? GetById(int id);
+        Doctor GetById(int id);
 
-        Doctor? Update(int id, Doctor doctor);
+        Doctor Update(int id, Doctor doctor);
 
         IEnumerable<Doctor> GetAll();
 
