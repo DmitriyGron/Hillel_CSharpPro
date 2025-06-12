@@ -85,10 +85,7 @@ namespace HW_004_2
             }
             return true;
         }
-        public static bool operator !=(Matrix a, Matrix b)
-        {
-            return !(a == b);
-        } 
+        public static bool operator !=(Matrix a, Matrix b) => !(a == b);
 
         public override bool Equals(object obj)
         {
@@ -101,12 +98,12 @@ namespace HW_004_2
         public override int GetHashCode() => _matrix.GetHashCode();
 
         public void FillingMatrix()
-        { 
+        {
             for (int i = 0; i < _rows; i++)
             {
                 for (int j = 0; j < _columns; j++)
                 {
-                    _matrix[i, j] = random.Next(1,20); 
+                    _matrix[i, j] = random.Next(1, 20);
                 }
             }
         }
@@ -120,6 +117,6 @@ namespace HW_004_2
                 }
                 Console.WriteLine();
             }
-        }   
+        }
     }
 }
