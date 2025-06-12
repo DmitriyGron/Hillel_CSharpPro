@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{56E313E4-A42C-41F8-8E22-DEA25A97AC4B}</ProjectGuid>
+    <ProjectGuid>{61C5B39E-3E84-4E3A-B08F-D550E3005FB0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HW_004</RootNamespace>
-    <AssemblyName>HW-004</AssemblyName>
+    <RootNamespace>HW_004_2</RootNamespace>
+    <AssemblyName>HW-004-2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
+    <Compile Include="Matrix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
