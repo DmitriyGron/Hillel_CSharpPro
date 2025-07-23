@@ -5,6 +5,21 @@
         Dentist = 1,
         Dermatologist,
         FamilyDoctor,
-        Paramedic
+        Paramedic,
+        Cardiologist,
+        Neurologist,
+        Surgeon,
+        Ophthalmologist,
+        Pediatrician,
+        Psychiatrist,
+        Urologist,
+        Gynecologist,
+        Oncologist,
+        Orthopedist,
+        Anesthesiologist,
+        Radiologist,
+        Rheumatologist,
+        Endocrinologist,
+        Gastroenterologist
     }
 }
