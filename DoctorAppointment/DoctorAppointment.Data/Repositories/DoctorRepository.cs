@@ -20,7 +20,16 @@ namespace DoctorAppointment.Data.Repositories
 
         public override void ShowInfo(Doctor doctor)
         {
-            Console.WriteLine(); // implement view of all object fields
+            Console.WriteLine($"Id: {doctor.Id}");
+            Console.WriteLine($"Name: {doctor.Name} {doctor.Surname}");
+            Console.WriteLine($"Type: {doctor.DoctorType} ({(Domain.Enums.DoctorTypes)doctor.DoctorType})");
+            Console.WriteLine($"Experience: {doctor.Experience} years");
+            Console.WriteLine($"Salary: {doctor.Salary}");
+            Console.WriteLine($"Phone: {doctor.Phone ?? "N/A"}");
+            Console.WriteLine($"Email: {doctor.Email ?? "N/A"}");
+            Console.WriteLine($"Created At: {doctor.CreatedAt}");
+            Console.WriteLine($"Updated At: {doctor.UpdatedAt}");
+            Console.WriteLine(new string('-', 30));
         }
 
         protected override void SaveLastId()
