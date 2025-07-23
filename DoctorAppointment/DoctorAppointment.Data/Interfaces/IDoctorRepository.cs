@@ -2,16 +2,8 @@
 
 namespace DoctorAppointment.Data.Interfaces
 {
-    public interface IDoctorRepository
+    public interface IDoctorRepository : IGenericRepository<Doctor>
     {
-        Doctor Create(Doctor doctor);
-
-        Doctor? GetById(int id);
-
-        Doctor Update(int id, Doctor doctor);
-
-        IEnumerable<Doctor> GetAll();
-
-        bool Delete(int id);
+        //  you can add more specific methods for Doctor repository if needed
     }
 }

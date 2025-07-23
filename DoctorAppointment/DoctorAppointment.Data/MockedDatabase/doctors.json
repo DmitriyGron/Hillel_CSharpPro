@@ -3,24 +3,12 @@
     "DoctorType": 1,
     "Experience": 11,
     "Salary": 0.0,
-    "Id": 1,
     "Name": "Dr. Smith",
     "Surname": "Petrov",
     "Phone": null,
     "Email": null,
-    "CreatedAt": "2025-07-23T01:31:47.5984586+03:00",
-    "UpdatedAt": "0001-01-01T00:00:00"
-  },
-  {
-    "DoctorType": 1,
-    "Experience": 11,
-    "Salary": 0.0,
-    "Id": 4,
-    "Name": "Dr. Smith",
-    "Surname": "Petrov",
-    "Phone": null,
-    "Email": null,
-    "CreatedAt": "2025-07-23T01:35:22.3335772+03:00",
+    "Id": 5,
+    "CreatedAt": "2025-07-23T13:57:41.8228908+03:00",
     "UpdatedAt": "0001-01-01T00:00:00"
   }
 ]
