@@ -2,6 +2,7 @@
 using DoctorAppointment.Data.Interfaces;
 using DoctorAppointment.Domain.Entities;
 using Newtonsoft.Json;
+using System.Numerics;
 
 namespace DoctorAppointment.Data.Repositories
 {
@@ -20,7 +21,15 @@ namespace DoctorAppointment.Data.Repositories
 
         public override void ShowInfo(Patient patient)
         {
-            Console.WriteLine(); // implement view of all object fields
+            Console.WriteLine($"Id: {patient.Id}");
+            Console.WriteLine($"Name: {patient.Name} {patient.Surname}");
+            Console.WriteLine($"Phone: {patient.Phone ?? "N/A"}");
+            Console.WriteLine($"Email: {patient.Email ?? "N/A"}");
+            Console.WriteLine($"Created At: {patient.CreatedAt}");
+            Console.WriteLine($"Updated At: {patient.UpdatedAt}");
+            Console.WriteLine($"Address: {patient.Address ?? "N/A"}");
+            Console.WriteLine($"Additional Info: {patient.AddittionalInfo ?? "N/A"}");
+            Console.WriteLine(new string('-', 30));
         }
 
 
