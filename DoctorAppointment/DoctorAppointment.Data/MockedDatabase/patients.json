@@ -1,1 +1,38 @@
-﻿
+[
+  {
+    "IllnessType": 1,
+    "AddittionalInfo": "No additional info",
+    "Address": "Kyiv, Ukraine",
+    "Name": "Oleg",
+    "Surname": "Gydrov",
+    "Phone": "123-456-7890",
+    "Email": "unvmj5105775@mail.com",
+    "Id": 1,
+    "CreatedAt": "2025-07-23T15:38:44.8398068+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 2,
+    "AddittionalInfo": "No additional info",
+    "Address": "Kyiv, Ukraine",
+    "Name": "Oleg",
+    "Surname": "Gydrov",
+    "Phone": "123-456-7890",
+    "Email": "unvmj5105775@mail.com",
+    "Id": 2,
+    "CreatedAt": "2025-07-23T15:39:25.2826296+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 5,
+    "AddittionalInfo": "No additional info",
+    "Address": "Kyiv, Ukraine",
+    "Name": "Oleg",
+    "Surname": "Gydrov",
+    "Phone": "123-456-7890",
+    "Email": "unvmj5105775@mail.com",
+    "Id": 3,
+    "CreatedAt": "2025-07-23T15:40:01.0829709+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]
