@@ -1,0 +1,122 @@
+[
+  {
+    "IllnessType": 5,
+    "AddittionalInfo": "Severe chest pain and shortness of breath",
+    "Address": "Kyiv, Ukraine",
+    "Name": "Oleg",
+    "Surname": "Gydrov",
+    "Phone": "+380671234567",
+    "Email": "oleg.gydrov@mail.com",
+    "Id": 1,
+    "CreatedAt": "2025-07-23T15:38:44.8398068+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 13,
+    "AddittionalInfo": "Undergoing chemotherapy",
+    "Address": "Lviv, Ukraine",
+    "Name": "Anna",
+    "Surname": "Melnyk",
+    "Phone": "+380681112233",
+    "Email": "anna.melnyk@mail.com",
+    "Id": 2,
+    "CreatedAt": "2025-07-23T16:00:00+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 3,
+    "AddittionalInfo": "Chronic tooth pain, requires root canal",
+    "Address": "Odessa, Ukraine",
+    "Name": "Ivan",
+    "Surname": "Koval",
+    "Phone": "+380501223344",
+    "Email": "ivan.koval@mail.com",
+    "Id": 3,
+    "CreatedAt": "2025-07-23T16:20:00+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 16,
+    "AddittionalInfo": "Severe allergic reactions to pollen",
+    "Address": "Dnipro, Ukraine",
+    "Name": "Kateryna",
+    "Surname": "Bondarenko",
+    "Phone": "+380673334455",
+    "Email": "kateryna.bondarenko@mail.com",
+    "Id": 4,
+    "CreatedAt": "2025-07-23T16:40:00+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 8,
+    "AddittionalInfo": "Persistent cough and wheezing",
+    "Address": "Kharkiv, Ukraine",
+    "Name": "Yuriy",
+    "Surname": "Shevchenko",
+    "Phone": "+380631112233",
+    "Email": "yuriy.shevchenko@mail.com",
+    "Id": 5,
+    "CreatedAt": "2025-07-23T17:00:00+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 1,
+    "AddittionalInfo": "Blurred vision and eye irritation",
+    "Address": "Zaporizhzhia, Ukraine",
+    "Name": "Olena",
+    "Surname": "Tkachenko",
+    "Phone": "+380681223344",
+    "Email": "olena.tkachenko@mail.com",
+    "Id": 6,
+    "CreatedAt": "2025-07-23T17:20:00+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 11,
+    "AddittionalInfo": "Frequent urinary tract infections",
+    "Address": "Chernihiv, Ukraine",
+    "Name": "Viktor",
+    "Surname": "Melnyk",
+    "Phone": "+380671112233",
+    "Email": "viktor.melnyk@mail.com",
+    "Id": 7,
+    "CreatedAt": "2025-07-23T17:40:00+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 4,
+    "AddittionalInfo": "Chronic eczema with flare-ups",
+    "Address": "Vinnytsia, Ukraine",
+    "Name": "Iryna",
+    "Surname": "Lozynska",
+    "Phone": "+380501112244",
+    "Email": "iryna.lozynska@mail.com",
+    "Id": 8,
+    "CreatedAt": "2025-07-23T18:00:00+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 19,
+    "AddittionalInfo": "Recently returned from tropical region with fever",
+    "Address": "Kherson, Ukraine",
+    "Name": "Taras",
+    "Surname": "Kovalenko",
+    "Phone": "+380671998877",
+    "Email": "taras.kovalenko@mail.com",
+    "Id": 9,
+    "CreatedAt": "2025-07-23T18:20:00+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 2,
+    "AddittionalInfo": "High fever and body aches",
+    "Address": "Lutsk, Ukraine",
+    "Name": "Svetlana",
+    "Surname": "Moroz",
+    "Phone": "+380503334466",
+    "Email": "svetlana.moroz@mail.com",
+    "Id": 10,
+    "CreatedAt": "2025-07-23T18:40:00+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]
