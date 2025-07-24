@@ -1,1 +1,130 @@
-﻿
+[
+  {
+    "Patient": {
+      "IllnessType": 13,
+      "AddittionalInfo": "Undergoing chemotherapy",
+      "Address": "Lviv, Ukraine",
+      "Name": "Anna",
+      "Surname": "Melnyk",
+      "Phone": "+380681112233",
+      "Email": "anna.melnyk@mail.com",
+      "Id": 2,
+      "CreatedAt": "2025-07-23T16:00:00+03:00",
+      "UpdatedAt": "0001-01-01T00:00:00"
+    },
+    "Doctor": {
+      "DoctorType": 15,
+      "Experience": 5,
+      "Salary": 0.0,
+      "Name": "Dr. John",
+      "Surname": "Koval",
+      "Phone": "+380503334455",
+      "Email": "john.koval@clinic.com",
+      "Id": 3,
+      "CreatedAt": "2025-07-23T14:10:45+03:00",
+      "UpdatedAt": "0001-01-01T00:00:00"
+    },
+    "DateTimeFrom": "2025-07-24T21:18:40.7264588+03:00",
+    "DateTimeTo": "2025-07-24T22:18:40.7265153+03:00",
+    "Description": "Regular check-up",
+    "Id": 1,
+    "CreatedAt": "2025-07-24T21:18:40.726702+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "Patient": {
+      "IllnessType": 5,
+      "AddittionalInfo": "Severe chest pain and shortness of breath",
+      "Address": "Kyiv, Ukraine",
+      "Name": "Oleg",
+      "Surname": "Gydrov",
+      "Phone": "+380671234567",
+      "Email": "oleg.gydrov@mail.com",
+      "Id": 1,
+      "CreatedAt": "2025-07-23T15:38:44.8398068+03:00",
+      "UpdatedAt": "0001-01-01T00:00:00"
+    },
+    "Doctor": {
+      "DoctorType": 19,
+      "Experience": 9,
+      "Salary": 0.0,
+      "Name": "Dr. Michael",
+      "Surname": "Shevchenko",
+      "Phone": "+380505556677",
+      "Email": "michael.shevchenko@clinic.com",
+      "Id": 5,
+      "CreatedAt": "2025-07-23T14:20:00+03:00",
+      "UpdatedAt": "0001-01-01T00:00:00"
+    },
+    "DateTimeFrom": "2025-07-24T21:22:32.1864416+03:00",
+    "DateTimeTo": "2025-07-24T22:22:32.1864969+03:00",
+    "Description": "Сonsultation",
+    "Id": 2,
+    "CreatedAt": "2025-07-24T21:22:32.186676+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "Patient": {
+      "IllnessType": 16,
+      "AddittionalInfo": "Severe allergic reactions to pollen",
+      "Address": "Dnipro, Ukraine",
+      "Name": "Kateryna",
+      "Surname": "Bondarenko",
+      "Phone": "+380673334455",
+      "Email": "kateryna.bondarenko@mail.com",
+      "Id": 4,
+      "CreatedAt": "2025-07-23T16:40:00+03:00",
+      "UpdatedAt": "0001-01-01T00:00:00"
+    },
+    "Doctor": {
+      "DoctorType": 2,
+      "Experience": 7,
+      "Salary": 0.0,
+      "Name": "Dr. Alice",
+      "Surname": "Ivanova",
+      "Phone": "+380502223344",
+      "Email": "alice.ivanova@clinic.com",
+      "Id": 2,
+      "CreatedAt": "2025-07-23T14:05:12+03:00",
+      "UpdatedAt": "0001-01-01T00:00:00"
+    },
+    "DateTimeFrom": "2025-07-24T21:31:43.7121552+03:00",
+    "DateTimeTo": "2025-07-24T22:31:43.7122166+03:00",
+    "Description": "Сonsultation",
+    "Id": 3,
+    "CreatedAt": "2025-07-24T21:31:43.7124262+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "Patient": {
+      "IllnessType": 4,
+      "AddittionalInfo": "Chronic eczema with flare-ups",
+      "Address": "Vinnytsia, Ukraine",
+      "Name": "Iryna",
+      "Surname": "Lozynska",
+      "Phone": "+380501112244",
+      "Email": "iryna.lozynska@mail.com",
+      "Id": 8,
+      "CreatedAt": "2025-07-23T18:00:00+03:00",
+      "UpdatedAt": "0001-01-01T00:00:00"
+    },
+    "Doctor": {
+      "DoctorType": 8,
+      "Experience": 6,
+      "Salary": 0.0,
+      "Name": "Dr. Viktor",
+      "Surname": "Melnyk",
+      "Phone": "+380507778899",
+      "Email": "viktor.melnyk@clinic.com",
+      "Id": 7,
+      "CreatedAt": "2025-07-23T14:24:00+03:00",
+      "UpdatedAt": "0001-01-01T00:00:00"
+    },
+    "DateTimeFrom": "2025-07-24T22:08:21.0765553+03:00",
+    "DateTimeTo": "2025-07-24T23:08:21.0765903+03:00",
+    "Description": "Сonsultation",
+    "Id": 4,
+    "CreatedAt": "2025-07-24T22:08:21.0768315+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]
