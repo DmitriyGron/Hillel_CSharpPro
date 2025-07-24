@@ -64,11 +64,13 @@ namespace DoctorAppointment.Data.Repositories
 
         protected dynamic ReadFromAppSettings() => JsonConvert.DeserializeObject<dynamic>(File.ReadAllText(Constants.AppSettingsPath));
 
-        public void ShowInfo(TSource source)
+        public TSource ShowInfo(TSource source)
         {
             Console.WriteLine($"Id: {source.Id}");
             Console.WriteLine($"Created At: {source.CreatedAt}");
             Console.WriteLine($"Updated At: {source.UpdatedAt}");
+
+            return source;
         }
     }
 }
