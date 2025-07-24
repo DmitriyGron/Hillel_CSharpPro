@@ -1,9 +1,4 @@
 ﻿using DoctorAppointment.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DoctorAppointment.Service.Interfaces
 {
@@ -14,5 +9,6 @@ namespace DoctorAppointment.Service.Interfaces
         Doctor? Get(int id);
         bool Delete(int id);
         Doctor Update(int id, Doctor doctor);
+        Doctor ShowInfo(Doctor doctor);
     }
 }
