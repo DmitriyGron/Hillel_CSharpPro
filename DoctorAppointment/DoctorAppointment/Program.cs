@@ -5,6 +5,28 @@ using DoctorAppointment.Service.Services;
 
 namespace DoctorAppointment
 {
+    public class AppointmentCall
+    {
+        private readonly IAppointmentService _appointmentService;
+
+        public AppointmentCall()
+        {
+            _appointmentService = new AppointmentService();
+        }
+
+        public void Run()
+        {
+            var patientRepo = new PatientRepository();
+            var appointments = _appointmentService.GetAll();
+
+            foreach (var app in appointments)
+            {
+                _appointmentService.ShowInfo(app);
+                Console.WriteLine("_______________________________________________________________");
+            }
+        }
+    }
+
     public class PatientAppointment
     {
         private readonly IPatientService _patientService;
@@ -18,36 +40,14 @@ namespace DoctorAppointment
         {
 
             Console.WriteLine("Current Patient list: ");
-            var patientRepo = new PatientRepository();
             var patients = _patientService.GetAll();
 
             foreach (var pat in patients)
             {
-                patientRepo.ShowInfo(pat);
+                _patientService.ShowInfo(pat);
+                Console.WriteLine("_______________________________________________________________");
             }
-
-            //Console.WriteLine("Adding patient: ");
-            //var newPatient = new Patient
-            //{
-            //    Name = "Oleg",
-            //    Surname = "Gydrov",
-            //    IllnessType = Domain.Enums.IllnessTypes.Ambulance,
-            //    AddittionalInfo = "No additional info",
-            //    Address = "Kyiv, Ukraine",
-            //    Phone = "123-456-7890",
-            //    Email = "unvmj5105775@mail.com"
-            //};
-
-            //_patientService.Create(newPatient);
-            //Console.WriteLine("Current doctors list: ");
-            //patients = _patientService.GetAll();
-
-            //foreach (var pat in patients)
-            //{
-            //    Console.WriteLine(pat.Name);
-            //}
         }
-
     }
 
     public class DoctorAppointment
@@ -68,34 +68,12 @@ namespace DoctorAppointment
             //}
             Console.WriteLine("Current doctors list: ");
             var docs = _doctorService.GetAll();
-            var doctorRepo = new DoctorRepository();
 
             foreach (var doc in docs)
             {
-                doctorRepo.ShowInfo(doc);
+                _doctorService.ShowInfo(doc);
+                Console.WriteLine("_______________________________________________________________");
             }
-
-
-            //Console.WriteLine("Adding doctor: ");
-            //var newDoctor = new Doctor
-            //{
-            //    Name = "Dr. Smith",
-            //    Surname = "Petrov",
-            //    Experience = 11,
-            //    DoctorType = Domain.Enums.DoctorTypes.Dentist
-            //};
-
-            //_doctorService.Create(newDoctor);
-            //Console.WriteLine("Current doctors list: ");
-            //docs = _doctorService.GetAll();
-
-            //foreach (var doc in docs)
-            //{
-            //    Console.WriteLine(doc.Name);
-            //}
-
-
-
         }
     }
 
@@ -109,6 +87,9 @@ namespace DoctorAppointment
 
             var patientAppointment = new PatientAppointment();
             patientAppointment.Run();
+
+            var appointmentCall = new AppointmentCall();
+            appointmentCall.Run();
         }
     }
 }
