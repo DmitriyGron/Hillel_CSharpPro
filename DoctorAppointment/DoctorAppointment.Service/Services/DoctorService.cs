@@ -38,9 +38,17 @@ namespace DoctorAppointment.Service.Services
         {
             return _doctorRepository.Update(id, doctor);
         }
-        public void ShowInfo(Doctor doctor)
+        public Doctor ShowInfo(Doctor doctor)
         {
-            _doctorRepository.ShowInfo(doctor);
+            Console.WriteLine($"Name: {doctor.Name}  {doctor.Surname}");
+            Console.WriteLine($"Phone: {doctor.Phone}");
+            Console.WriteLine($"Email: {doctor.Email}");
+            Console.WriteLine($"DoctorType: {doctor.DoctorType}");
+            Console.WriteLine($"Experience: {doctor.Experience}");
+            Console.WriteLine($"Salary: {doctor.Salary}");
+            return _doctorRepository.ShowInfo(doctor);
+
+
         }
     }
 }

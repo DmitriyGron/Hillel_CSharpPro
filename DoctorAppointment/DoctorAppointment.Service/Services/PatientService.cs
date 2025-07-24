@@ -3,7 +3,6 @@ using DoctorAppointment.Data.Repositories;
 using DoctorAppointment.Domain.Entities;
 using DoctorAppointment.Service.Interfaces;
 
-
 namespace DoctorAppointment.Service.Services
 {
     public class PatientService : IPatientService
@@ -35,9 +34,15 @@ namespace DoctorAppointment.Service.Services
             return _patientRepository.Update(id, patient);
         }
 
-        public void ShowInfo(Patient patient)
+        public Patient ShowInfo(Patient patient)
         {
-            _patientRepository.ShowInfo(patient);
+            Console.WriteLine($"Name: {patient.Name}  {patient.Surname}");
+            Console.WriteLine($"Phone: {patient.Phone}");
+            Console.WriteLine($"Email: {patient.Email}");
+            Console.WriteLine($"IllnessType: {patient.IllnessType}");
+            Console.WriteLine($"AddittionalInfo: {patient.AddittionalInfo}");
+            Console.WriteLine($"Address: {patient.Address}");
+            return _patientRepository.ShowInfo(patient);
         }
     }
 }
