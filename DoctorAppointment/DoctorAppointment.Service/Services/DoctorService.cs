@@ -38,5 +38,9 @@ namespace DoctorAppointment.Service.Services
         {
             return _doctorRepository.Update(id, doctor);
         }
+        public void ShowInfo(Doctor doctor)
+        {
+            _doctorRepository.ShowInfo(doctor);
+        }
     }
 }
