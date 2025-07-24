@@ -19,20 +19,6 @@ namespace DoctorAppointment.Data.Repositories
             LastId = result.Database.Patients.LastId;
         }
 
-        public override void ShowInfo(Patient patient)
-        {
-            Console.WriteLine($"Id: {patient.Id}");
-            Console.WriteLine($"Name: {patient.Name} {patient.Surname}");
-            Console.WriteLine($"Phone: {patient.Phone ?? "N/A"}");
-            Console.WriteLine($"Email: {patient.Email ?? "N/A"}");
-            Console.WriteLine($"Created At: {patient.CreatedAt}");
-            Console.WriteLine($"Updated At: {patient.UpdatedAt}");
-            Console.WriteLine($"Address: {patient.Address ?? "N/A"}");
-            Console.WriteLine($"Additional Info: {patient.AddittionalInfo ?? "N/A"}");
-            Console.WriteLine(new string('-', 30));
-        }
-
-
         protected override void SaveLastId()
         {
             dynamic result = ReadFromAppSettings();
