@@ -16,7 +16,6 @@ namespace DoctorAppointment
 
         public void Run()
         {
-            var patientRepo = new PatientRepository();
             var appointments = _appointmentService.GetAll();
 
             foreach (var app in appointments)
@@ -34,6 +33,7 @@ namespace DoctorAppointment
         public PatientAppointment()
         {
             _patientService = new PatientService();
+
         }
 
         public void Run()

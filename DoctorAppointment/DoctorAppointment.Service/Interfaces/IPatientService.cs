@@ -9,6 +9,6 @@ namespace DoctorAppointment.Service.Interfaces
         Patient? Get(int id);
         bool Delete(int id);
         Patient Update(int id, Patient patient);
-        Patient ShowInfo(Patient patient);
+        void ShowInfo(Patient patient);
     }
 }

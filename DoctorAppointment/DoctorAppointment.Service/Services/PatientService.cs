@@ -1,4 +1,5 @@
-﻿using DoctorAppointment.Data.Interfaces;
+﻿using DoctorAppointment.Data.Classes;
+using DoctorAppointment.Data.Interfaces;
 using DoctorAppointment.Data.Repositories;
 using DoctorAppointment.Domain.Entities;
 using DoctorAppointment.Service.Interfaces;
@@ -8,10 +9,12 @@ namespace DoctorAppointment.Service.Services
     public class PatientService : IPatientService
     {
         private readonly IPatientRepository _patientRepository;
+        private readonly IInfoDisplayer<Patient> _patientInfoDisplayer;
 
         public PatientService()
         {
             _patientRepository = new PatientRepository();
+            _patientInfoDisplayer = new PatientInfoDisplayer();
         }
         public Patient Create(Patient patient)
         {
@@ -34,15 +37,9 @@ namespace DoctorAppointment.Service.Services
             return _patientRepository.Update(id, patient);
         }
 
-        public Patient ShowInfo(Patient patient)
+        public void ShowInfo(Patient patient)
         {
-            Console.WriteLine($"Name: {patient.Name}  {patient.Surname}");
-            Console.WriteLine($"Phone: {patient.Phone}");
-            Console.WriteLine($"Email: {patient.Email}");
-            Console.WriteLine($"IllnessType: {patient.IllnessType}");
-            Console.WriteLine($"AddittionalInfo: {patient.AddittionalInfo}");
-            Console.WriteLine($"Address: {patient.Address}");
-            return _patientRepository.ShowInfo(patient);
+            _patientInfoDisplayer.ShowInfo(patient);
         }
     }
 }
