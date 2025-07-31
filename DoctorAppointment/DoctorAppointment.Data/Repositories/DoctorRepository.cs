@@ -24,10 +24,5 @@ namespace DoctorAppointment.Data.Repositories
 
             File.WriteAllText(Constants.AppSettingsPath, result.ToString());
         }
-
-        public void ShowInfo(Doctor source)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
